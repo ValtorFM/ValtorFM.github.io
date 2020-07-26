@@ -1,0 +1,206 @@
+@font-face {
+font-family: Arial; 
+src: url(fonts/arial.ttf); 
+font-family: Helvetica;
+src: url(fonts/helvetica.ttf); 
+}
+
+.material .information-aboutlanguage #name {
+	width: 550px;
+	font-family: Helvetica, 'Helvetica';
+	font-size: 24px;
+	color: #333;
+
+}
+
+
+.material .first-part .introduction #first, #second:hover {
+	cursor: pointer;
+}
+
+.material .first-part  .introduction li:hover {color: #FB3F51;}
+.material .first-part .introduction #first {
+	padding-top: 16px;
+	padding-right: 250px;
+	border-top: 1px solid #e1e7ed;
+	font-family: Helvetica, 'Helvetica';
+	font-size: 16px;
+	color: #1479d9;
+	display: inline-block;
+	position: relative;
+	top: 170px;
+	left: 165px;
+	list-style: none;
+}
+.material .first-part  .introduction #second {
+	font-family: Helvetica, 'Helvetica';
+	font-size: 16px;
+	color: #1479d9;
+	display: inline-block;
+	position: relative;
+	top: 170px;
+	left: 10px;
+	list-style: none;
+
+}
+.material .information-aboutlanguage #python {
+	width: 550px;
+	font-family: Helvetica, 'Helvetica';
+	color: #333;
+	margin: 0 0 8px;
+}
+
+.material .information-aboutlanguage #part {
+	font-family: Helvetica,'Helvetica';
+	font-size: 14px;
+	color: white;
+	position: relative;
+	top: -12px;
+	left: 5px;
+}
+.material .information-aboutlanguage{
+	background-color: #9b6b6b;
+	position: relative;
+	top: -70px;
+	left: 205px;
+	border: 1px solid #9b6b6b;
+	border-radius: 30px;
+	width: 70px;
+	height: 20px;
+
+}
+
+
+.material .first-part h4{
+	font-family: Helvetica,'Helvetica';
+	font-size: 14px;
+	color: #373636;
+	position: relative;
+	left: 205px;
+	top: 170px;
+}
+
+.information .search {
+	width: 900px;
+	position: relative;
+	left: 250px;
+	top: 70px;
+	height: 100px;
+	background-color: #373636;
+	border-radius: 15px;
+}
+.information #information-next{
+	position: relative;
+	top: 40px;
+	font-size: 18px;
+}
+.information #information{
+	position: relative;
+	top: 55px;
+	font-size: 26px;
+}
+
+.information .search #search:hover{
+	cursor: pointer;
+	background-color: #ff864a;
+	border: 1px solid #ff864a;
+	border-radius: 5px;
+}
+.information .search #search{
+	position: relative;
+	top: 30px;
+	left: 100px;
+	padding: 15px 60px;
+	border: 1px solid #fd9460;
+	background-color: #fd9460;
+	border-radius: 4px;
+}
+.information .search #input{
+	position: relative;
+	top: 15px;
+	left: 50px;
+	padding-bottom: 30px;
+	border: 1px solid white;
+	border-radius: 5px;
+	
+}
+
+.information {
+	width: 1380px;
+	position: relative;
+	left: -20px;
+	top: -106px;
+	height: 480px;
+	background-color: #333;
+}
+.information p {
+	font-family: Arial,'Arial';
+	font-size: 22px;
+	text-align: center;
+	color:white;
+	position: relative;
+	top: 65px;
+}
+.information h2 {
+	font-family: Arial,'Arial';
+	font-size: 32px;
+	text-align: center;
+	color:white;
+	position: relative;
+	top: 75px;
+}
+
+html {overflow-x: hidden; height: 2500px}
+
+.navigation .links #account li {
+	position: relative;
+	font-family: Arial,'Arial';
+	font-size: 15px;
+	color: #fdc073;
+	left: 980px;
+	top: -90px;
+	display: inline-block;
+	margin-left: 30px;
+	border: 1px solid #fdc073;
+	border-radius: 18px;
+	padding: 10px;
+}
+.navigation .links #account li:hover {
+	color: white;
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 18px;
+	padding: 10px;
+}
+.navigation .links #links #main{color: white;}
+#main:hover{border-bottom: 1px solid #fdc073}
+.navigation #name {
+	font-family: Arial,'Arial';
+	color:white;
+	position: relative;
+	top: 31px;
+	left: 60px;
+}
+.navigation #materials:hover{}
+.navigation #name:hover{cursor: pointer;}
+.navigation .links #links {
+	position: relative;
+	left: -20px;
+	top: -25px;
+	width: 1380px;
+	height: 70px;
+	background-color: #333;
+
+}
+.navigation .links #links li {
+	font-family: Arial,'Arial';
+	font-size: 15px;
+	color: #fdc073;
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	top: 30px;
+	left: 90px;
+}
+
+.navigation .links #links li:hover {cursor: pointer; color: #FB3F51; border-bottom: 1px solid #fdc073;}
